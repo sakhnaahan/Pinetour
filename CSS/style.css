@@ -268,7 +268,6 @@ img {
   border-radius: 120px;
   display: flex;
   align-items: center;
-  position: relative;
 }
 .containerInfoDesti:hover {
   border: solid 4px white;
@@ -429,4 +428,137 @@ img {
   height: 527px;
   border-radius: 40px;
   background: #fafbfc;
+  transition: 0.5s;
+}
+
+.package-card:hover {
+  box-shadow: 2px 2px 5px #888888, -2px -2px 5px #cccccc;
+}
+
+.package-card-header {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.package-card-price {
+  color: #303030;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 20px;
+  padding-right: 265px;
+  margin-bottom: 10px;
+}
+
+.package-card-price-desc {
+  color: #919191;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: normal;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.includes {
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 195px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.package-card-content {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#font-size {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+#gap-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #a4d1e2;
+  border: none;
+  width: 336px;
+  height: 48px;
+  margin-top: 50px;
+  margin-left: 22px;
+  transition: 0.5s;
+}
+
+#button:hover {
+  background-color: #000;
+  color: white;
+}
+
+#popular {
+  display: inline-block;
+  margin-left: 80px;
+  padding: 5px 20px;
+  background: #6972b5;
+  border-radius: 999px;
+  color: white;
+}
+
+.contact {
+  width: auto;
+  height: 204px;
+  margin-top: 220px;
+  display: flex;
+  align-items: center;
+}
+
+#contact-facebook-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 44px;
+  width: 167px;
+  background-color: #fafbfc;
+  border-radius: 999px;
+  color: #6972b5;
+  justify-content: center;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#contact-position {
+  display: flex;
+  gap: 20px;
+  margin-left: 120px;
+}
+
+#icon-tour {
+  width: 101px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-left: 700px;
 }
